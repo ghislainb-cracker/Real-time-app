@@ -14,7 +14,7 @@ document.querySelector('form')
     .addEventListener("submit", sendMessage);
 
 socket.addEventListener('message', ({ data }) => {
-   
+    const li = document.createElement("li");
    
 
 })    
