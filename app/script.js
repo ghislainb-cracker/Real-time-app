@@ -11,5 +11,10 @@ function sendMessage(e){
 }
 
 document.querySelector('form')
+    .addEventListener("submit", sendMessage);
+
+socket.addEventListener('message', ({ data }) => {
+   
    
 
+})    
