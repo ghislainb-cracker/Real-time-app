@@ -15,6 +15,6 @@ document.querySelector('form')
 
 socket.addEventListener('message', ({ data }) => {
     const li = document.createElement("li");
-   
-
+    li.textContent = data
+    document.querySelector("ul").appendChild(li)
 })    
