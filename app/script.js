@@ -7,7 +7,7 @@ function sendMessage(e){
         socket.send(input.value);
         input.value = ""
     }
-    
+    input.focus();
 }
 
 
