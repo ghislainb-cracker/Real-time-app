@@ -10,6 +10,6 @@ function sendMessage(e){
     input.focus();
 }
 
-
+document.querySelector('form')
    
 
