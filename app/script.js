@@ -10,8 +10,7 @@ function sendMessage(e){
     input.focus();
 }
 
-document.querySelector('form')
-    .addEventListener("submit", sendMessage);
+document.querySelector('form').addEventListener("submit", sendMessage);
 
 socket.addEventListener('message', ({ data }) => {
     const li = document.createElement("li");
