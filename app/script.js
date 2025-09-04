@@ -13,7 +13,6 @@ function sendMessage(e){
 }
 
 socket.addEventListener("message", ({data}) => {
-    const li = document.createElement("li");
-    li.textContent = data;
-    document.getElementById("messages").appendChild(li);
+    
+    
 })
