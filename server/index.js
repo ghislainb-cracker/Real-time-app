@@ -5,6 +5,6 @@ server.on("connection", (socket) => {
     console.log("Client connected on the server successfully✅");
     socket.on("message", (msg) => {
         console.log("received message is:", msg.toString())
-        
+        socket.send(msg.toString());
     })
 })
