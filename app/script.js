@@ -13,6 +13,6 @@ function sendMessage(e){
 }
 
 socket.addEventListener("message", ({data}) => {
-    
+    const li = document.createElement("li");
     
 })
