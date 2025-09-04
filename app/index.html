@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <form>
-        <input type="text" name="message" placeholder="Enter you message..."> <br>
-        <button>Send Message</button>
+    <form id="form">
+        <input type="text" name="message" id="input"  autocomplete="off"  placeholder="Enter you message..."> <br>
+        <button type="submit">Send Message</button>
     </form>
-    <ul></ul>
+    <ul id="messages"></ul>
 </body>
 </html>
+
+
+
